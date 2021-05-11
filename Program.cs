@@ -1,13 +1,22 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace Async_Prac
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
+            //How to use optional parameters
+            Console.WriteLine("<<<<<<<<<<<<<Optional Parameters>>>>>>>>>>>>");
             optionalParam();
+
+            //Asychronos 
+            Console.WriteLine("<<<<<<<<<<<<<Asynchronos>>>>>>>>>>>>");
+            await asynchronos();
+
         }
+
 
         // optional parameters
         static void optionalParam()
@@ -18,6 +27,14 @@ namespace Async_Prac
             Console.WriteLine(lecture.lectureName + ":" + lecture.wages);
         }
 
+        //aysnchronos 
+        static async Task asynchronos()
+        {
+            Console.WriteLine("task1");
+            await Task.Delay(3000);
+            Console.WriteLine("task2");
+
+        }
         
     }
 
