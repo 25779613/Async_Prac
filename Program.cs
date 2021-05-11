@@ -19,9 +19,12 @@ namespace Async_Prac
             await asynchronos();
 
             //Asychronos fetch from api 
-            Console.WriteLine("<<<<<<<<<<<<<Asynchronos fetch api>>>>>>>>>>>>");
-            await AsyncFetchDataApi();
+           /* Console.WriteLine("<<<<<<<<<<<<<Asynchronos fetch api>>>>>>>>>>>>");
+            await AsyncFetchDataApi();*/
 
+            //Asychronos fetch from api anon
+            Console.WriteLine("<<<<<<<<<<<<<Asynchronos fetch api anon>>>>>>>>>>>>");
+            await aysncFetchDataAnon();
         }
 
 
@@ -48,11 +51,18 @@ namespace Async_Prac
         static async Task<dynamic> AsyncFetchDataApi()
         {
             string link = "https://jsonplaceholder.typicode.com/todos";
-            var user = await httpClient.GetStringAsync(link);
+            var user = await httpClient.GetStringAsync(link);// promise
             Console.WriteLine(user);
             return user;
         }
 
+        // async fetch from api anonymous
+        static Func<Task>  aysncFetchDataAnon = async delegate ()
+        {
+            string link = "https://jsonplaceholder.typicode.com/todos";
+            var user = await httpClient.GetStringAsync(link);
+            Console.WriteLine(user);
+        };
     }
 
     class lectures
