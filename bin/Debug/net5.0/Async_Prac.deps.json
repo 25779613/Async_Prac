@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Async_Prac/1.0.0": {
+        "runtime": {
+          "Async_Prac.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Async_Prac/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

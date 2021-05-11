@@ -1,0 +1,16 @@
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.csprojAssemblyReference.cache
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.AssemblyInfoInputs.cache
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.AssemblyInfo.cs
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.csproj.CoreCompileInputs.cache
+C:\Users\SALMAN\Desktop\Async_Prac\bin\Debug\net5.0\Async_Prac.exe
+C:\Users\SALMAN\Desktop\Async_Prac\bin\Debug\net5.0\Async_Prac.deps.json
+C:\Users\SALMAN\Desktop\Async_Prac\bin\Debug\net5.0\Async_Prac.runtimeconfig.json
+C:\Users\SALMAN\Desktop\Async_Prac\bin\Debug\net5.0\Async_Prac.runtimeconfig.dev.json
+C:\Users\SALMAN\Desktop\Async_Prac\bin\Debug\net5.0\Async_Prac.dll
+C:\Users\SALMAN\Desktop\Async_Prac\bin\Debug\net5.0\ref\Async_Prac.dll
+C:\Users\SALMAN\Desktop\Async_Prac\bin\Debug\net5.0\Async_Prac.pdb
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.dll
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\ref\Async_Prac.dll
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.pdb
+C:\Users\SALMAN\Desktop\Async_Prac\obj\Debug\net5.0\Async_Prac.genruntimeconfig.cache
