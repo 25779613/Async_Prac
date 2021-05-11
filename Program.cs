@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Net.Http;
 using System.Threading.Tasks;
+
+
 
 namespace Async_Prac
 {
@@ -15,6 +18,10 @@ namespace Async_Prac
             Console.WriteLine("<<<<<<<<<<<<<Asynchronos>>>>>>>>>>>>");
             await asynchronos();
 
+            //Asychronos fetch from api 
+            Console.WriteLine("<<<<<<<<<<<<<Asynchronos fetch api>>>>>>>>>>>>");
+            await AsyncFetchDataApi();
+
         }
 
 
@@ -27,7 +34,7 @@ namespace Async_Prac
             Console.WriteLine(lecture.lectureName + ":" + lecture.wages);
         }
 
-        //aysnchronos 
+        //asynchronos 
         static async Task asynchronos()
         {
             Console.WriteLine("task1");
@@ -35,7 +42,17 @@ namespace Async_Prac
             Console.WriteLine("task2");
 
         }
-        
+
+        // async fetch from api
+        private static HttpClient httpClient = new HttpClient();
+        static async Task<dynamic> AsyncFetchDataApi()
+        {
+            string link = "https://jsonplaceholder.typicode.com/todos";
+            var user = await httpClient.GetStringAsync(link);
+            Console.WriteLine(user);
+            return user;
+        }
+
     }
 
     class lectures
